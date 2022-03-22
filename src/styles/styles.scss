@@ -24,6 +24,9 @@ section {
   display: block;
 }
 
+p {
+  margin-bottom: 0px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -140,7 +143,7 @@ ul ol {
   &-layout {
     overflow: hidden;
     &-footer {
-      padding: 20px 50px 0px 50px;
+      padding: 20px;
       color: rgba(0, 0, 0, 0.85);
       font-size: 14px;
       background: #cccccc;
@@ -175,6 +178,7 @@ ul ol {
   background-color: yellow;
   box-shadow: 0 0 10px -5px #e0e0e0;
   z-index: 999;
+  min-height: 50px;
 }
 
 // Generales
