@@ -24,7 +24,7 @@ export default function DetallesPersonaje(id) {
                 }                
               >
                 <div>
-                  <p><strong>Nombre: {personaje.nombre}</strong></p>
+                  <p><strong>Nombre: {personaje.name}</strong></p>
                   <p><strong>Cumpleaño: {personaje.birth_year}</strong></p>
                   <p><strong>Color de ojos: {personaje.eye_color}</strong></p>
                   <p><strong>Género: {personaje.gender}</strong></p>
